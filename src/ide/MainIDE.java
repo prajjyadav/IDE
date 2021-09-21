@@ -511,7 +511,7 @@ public class MainIDE extends javax.swing.JFrame {
     private void callReplaceDialog() {
         new FindReplace(this).setVisible(true);
     }
-    
+
     public void replace(boolean all,boolean caseSensitive) {
         JScrollPane scroll=(JScrollPane)this.editor.getSelectedComponent();
         int index=editor.getSelectedIndex();
@@ -551,7 +551,7 @@ public class MainIDE extends javax.swing.JFrame {
         }
     }
     
-    
+    // create new file
     private void newFile(){
         JScrollPane scrollPane =new JScrollPane();
         scrollPane.setViewportView(new JTextPane());
